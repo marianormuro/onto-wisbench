@@ -48,7 +48,7 @@ public class WisconsinBenchmarkGenerator {
 			String string4 = string4s[i % 4];
 
 			System.out.format(//
-					"%d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %s, %s, %s\n", //
+					"%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,\"%s\",\"%s\",\"%s\"\n", //
 							unique1, unique2, two, four, ten, twenty,
 							onePercent, tenPercent, twentyPercent,
 							fiftyPercent, unique3, evenOnePercent,

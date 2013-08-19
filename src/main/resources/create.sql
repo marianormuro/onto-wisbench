@@ -1,4 +1,4 @@
-CREATE TABLE $table_name$
+CREATE TABLE t
 ( 
 	unique1 integer NOT NULL,
 	unique2 integer NOT NULL PRIMARY KEY,
