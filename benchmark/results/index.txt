@@ -1,3 +1,0 @@
-Results correspond to the queries in queries folder. 
-Ex: mysql_join_union.txt - MySQL results for queries in join_union sub-folder.
-First column is query number, second - number of results, third - execution time in miliseconds. 
