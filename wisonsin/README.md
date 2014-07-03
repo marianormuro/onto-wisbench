@@ -1,6 +1,21 @@
 onto-wisbench
 =============
 
+The Wisconsin benchmark is a well known benchmark for SQL systems. We have
+created a set of queries to evaluate the performance of SQL features that
+are commonly used in SPARQL to SQL translations. The Wisconsin folder
+contains the files needed to create the tables, generate the data and 
+queries for this test.
+
+This folder contains:
+
+* sql-schema/ - The .sql scripts to create the schema 
+* data-generator - A simple data generator for the benchmark. Generates according to the original Wisconsin specification [1]. The project is a Java Maven project. 
+* benchmark - The queries that we designed to evaluate SQL features of SPARQL translations
+
+[1] http://staff.ustc.edu.cn/~jpq/paper/flash/1993-The%20Wisconsin%20Benchmark-%20Past,%20Present,%20and%20Future.pdf
+
+
 Compile onto-wisbench 
 ---------------------
 
@@ -24,7 +39,7 @@ CREATE SCHEMA `ontowisbench` ;
 ```
 
 
-$ echo sql/create.sql | mysql
+$ echo sql-schema/create.sql | mysql
 
 ```
 

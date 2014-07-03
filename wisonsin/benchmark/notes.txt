@@ -1,8 +1,0 @@
-MySQL:
-sql_mode was set to ANSI to allow || to mean concat.
-
-DB2:
-Free version of DB2 was used to execute queries.
-
-PosgreSQL:
-
