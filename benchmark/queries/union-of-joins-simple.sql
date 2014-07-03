@@ -1,4 +1,3 @@
-\timing
 -- JOIN condition ['unique1']  ----------------------
 
 SELECT * FROM t1 v1 JOIN t1 v2 ON 

@@ -1,4 +1,3 @@
-\timing
 -- JOIN condition ['unique1']  ----------------------
 SELECT * FROM (
 	SELECT 'http://example.org/data/' || '/' || unique1 as subj , unique1 FROM t1
