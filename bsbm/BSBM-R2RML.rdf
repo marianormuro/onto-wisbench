@@ -1,0 +1,511 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rev="http://purl.org/stuff/rev#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:iso3166="http://downlode.org/rdf/iso-3166/countries#"
+    xmlns:rr="http://www.w3.org/ns/r2rml#"
+    xmlns:bsbm="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bsbm-inst="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/"
+    xmlns="http://obda.inf.unibz.it/ontop/benchmark/bsbm.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/Product">
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual2"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyTex2"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric1"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyNum1"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric4"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyNum4"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual5"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyTex5"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/producer"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"producer"}/Producer{"producer"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"producer"}/Producer{"producer"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual3"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyTex3"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"label"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"producer"}/Product{"nr"}</rr:template>
+      <rr:class rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"/>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric5"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyNum5"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual6"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyTex6"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric2"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyNum2"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual1"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyTex1"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"comment"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric3"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyNum3"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric6"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyNum6"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"publishDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select nr, label, comment, producer, propertyNum1, propertyNum2, propertyNum3, propertyNum4, propertyNum5, propertyNum6, propertyTex1, propertyTex2, propertyTex3, propertyTex4, propertyTex5, publisher, propertyTex6, publishDate from product
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual4"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"propertyTex4"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/Producer">
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select nr, label, comment, homepage, country, publisher, publishDate from producer
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"nr"}/Producer{"nr"}</rr:template>
+      <rr:class rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer"/>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"label"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"comment"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"homepage"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"country"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"nr"}/Producer{"nr"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"publishDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/ProductType">
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select nr, label, comment, parent, publisher, publishDate from producttype
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductType{"nr"}</rr:template>
+      <rr:class rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductType"/>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"label"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"comment"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/StandardizationInstitution{"publisher"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/subClassOf"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductType{"parent"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"publishDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/ProducthasProductType">
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select product.producer as product_producer, product.nr as product_nr, producttypeproduct.productType from product, producttypeproduct where product.nr = producttypeproduct.product
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"product_producer"}/Product{"product_nr"}</rr:template>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/type"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductType{"productType"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/Review">
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/stuff/rev#text"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"text"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"publishDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewDate"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"reviewDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select nr, product, producer, person, reviewDate, title, text, language, rating1, rating2, rating3, rating4, publisher, publishDate from review
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating3"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"rating3"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewFor"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"producer"}/Product{"product"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromRatingSite{"publisher"}/Review{"nr"}</rr:template>
+      <rr:class rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Review"/>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating1"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"rating1"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/title"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"title"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating4"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"rating4"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/stuff/rev#reviewer"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromRatingSite{"publisher"}/Reviewer{"person"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromRatingSite{"publisher"}/RatingSite{"publisher"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating2"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"rating2"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/Offer">
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/deliveryDays"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"deliveryDays"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/price"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"price"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validFrom"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"validFrom"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validTo"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"validTo"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/product"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"producer"}/Product{"product"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor{"vendor"}/Vendor{"vendor"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"publishDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select nr, product, producer, vendor, price, validFrom, validTo, deliveryDays, offerWebpage, publisher, publishDate from offer
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/vendor"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor{"vendor"}/Vendor{"vendor"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/offerWebpage"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"offerWebpage"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor{"publisher"}/Offer{"nr"}</rr:template>
+      <rr:class rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer"/>
+    </rr:subjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/Person">
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select nr, name, mbox_sha1sum, country, publisher, publishDate from person
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromRatingSite{"publisher"}/Reviewer{"nr"}</rr:template>
+      <rr:class rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"name"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://xmlns.com/foaf/0.1/mbox_sha1sum"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"mbox_sha1sum"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://downlode.org/rdf/iso-3166/countries#{"country"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromRatingSite{"publisher"}/RatingSite{"publisher"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"publishDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/ProductFeature">
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select nr, label, comment, publisher, publishDate from productfeature
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature{"nr"}</rr:template>
+      <rr:class rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature"/>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"label"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"comment"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/StandardizationInstitution{"publisher"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"publishDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/ProductHasProductFeature">
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select product.producer as product_producer, product.nr as product_nr, productfeatureproduct.productFeature as feature_product from product, productfeatureproduct where product.nr = productfeatureproduct.product
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer{"product_producer"}/Product{"product_nr"}</rr:template>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature{"feature_product"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+  <rr:TriplesMap rdf:about="http://ontop.inf.unibz.it/bench/bsbm/r2rml/Vendor">
+    <rr:logicalTable rdf:parseType="Resource">
+      <rr:sqlQuery>
+		select nr, label, comment, homepage, country, publisher, publishDate from vendor
+	</rr:sqlQuery>
+    </rr:logicalTable>
+    <rr:subjectMap rdf:parseType="Resource">
+      <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor{"nr"}/Vendor{"nr"}</rr:template>
+      <rr:class rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor"/>
+    </rr:subjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"label"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"comment"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"homepage"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://downlode.org/rdf/iso-3166/countries#{"country"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:template>http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor{"nr"}/Vendor{"nr"}</rr:template>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+    <rr:predicateObjectMap rdf:parseType="Resource">
+      <rr:predicate rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+      <rr:objectMap rdf:parseType="Resource">
+        <rr:column>"publishDate"</rr:column>
+      </rr:objectMap>
+    </rr:predicateObjectMap>
+  </rr:TriplesMap>
+</rdf:RDF>
